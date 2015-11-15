@@ -88,7 +88,7 @@ public class MainFragment extends Fragment
 
      public void loadPieChart()
      {        
-         int dataset[] = new int[] {15,30,55};
+         int dataset[] = new int[] {5,10,15,20,35};
          
          // use java.util.Arrays to format 
          // the array as text
