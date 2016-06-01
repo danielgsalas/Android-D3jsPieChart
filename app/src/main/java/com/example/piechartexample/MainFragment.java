@@ -76,10 +76,11 @@ public class MainFragment extends Fragment
                      // load the pie chart
                      loadPieChart();
                  }  
-             });            
-             
-             // note the mapping from  file:///android_asset 
-             // to Android-D3jsPieChart/assets
+             });
+
+             // note the mapping from file:///android_asset
+             // to Android-D3jsPieChart/assets or
+             // Android-D3jsPieChart/app/src/main/assets
              webview.loadUrl("file:///android_asset/" + 
                  "html/piechart.html");
          }
